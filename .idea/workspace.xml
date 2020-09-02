@@ -1,0 +1,898 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:Phase3" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/apache_lang_commons_lang_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/commons_io_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CustomGames/custom_game_1.game" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CustomGames/single_player.game" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CustomGames/spells.spl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Phase3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commons-io-2.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/commons-lang-2.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/gson-2.8.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Game/Assets/Amulet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Game/Assets/Card.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Game/Assets/DoAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Game/Assets/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Game/Assets/MonsterCard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Game/Assets/SpellCard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Game/BattleManaging/Battle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Game/BattleManaging/Battle1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Game/BattleManaging/Battle2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Game/BattleManaging/Battle3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Game/BattleManaging/Battle4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Game/BattleManaging/CanBeTarget.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Game/Constants/Constants.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Game/Constants/Initializer_Statics.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Game/Custom/CustomGamesManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Game/Custom/GameClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Game/Custom/Spell.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Game/Custom/SpellOwner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Game/Custom/SpellsManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Game/Elements/BagElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Game/Elements/ShopElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Game/Enums/BattleState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Game/Enums/CardType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Game/Enums/FieldType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Game/Enums/MonsterSpellType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Game/Enums/MonsterTribe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Game/Enums/MonsterType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Game/Enums/PlayerType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Game/Enums/SpellType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Game/Exceptions/DeadPlayerException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Game/Exceptions/DeckIsEmptyException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Game/GameManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Game/Network/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Game/Network/NetworkGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Game/Network/NetworkManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Game/Network/NetworkPlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Game/Network/Temp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Game/Network/TimeLimitedCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Game/PlayerClasses/Bag.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Game/PlayerClasses/Deck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Game/PlayerClasses/Field.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Game/PlayerClasses/Graveyard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Game/PlayerClasses/Hand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Game/PlayerClasses/Inventory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Game/PlayerClasses/MonsterField.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Game/PlayerClasses/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Game/PlayerClasses/SpellField.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Game/PlayerClasses/Target.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Game/Shops/AmuletShop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Game/Shops/CardShop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Game/Shops/ItemShop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Game/States/State.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Game/States/StateManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MainPackage/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MenuControllers/BattleCons/BattleCon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MenuControllers/BattleCons/CardUseCon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MenuControllers/BattleCons/ItemUseCon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MenuControllers/BattleCons/NextCon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MenuControllers/BattleCons/TargetCon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MenuControllers/BattleCons/UseCardResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MenuControllers/EditCons/DeckCon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MenuControllers/EditCons/EditAmuletsCon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MenuControllers/GeneralClasses/MainController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MenuControllers/GeneralClasses/MenuItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MenuControllers/GeneralClasses/Menus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MenuControllers/GeneralClasses/RunAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MenuControllers/InventoryCons/AmuletInventoryCon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MenuControllers/InventoryCons/CardInventoryCon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MenuControllers/InventoryCons/InventoryCon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MenuControllers/InventoryCons/ItemInventoryCon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MenuControllers/MainMenuController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MenuControllers/MainShopController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MenuControllers/ShopCons/AmuletShopCon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MenuControllers/ShopCons/CardShopCon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MenuControllers/ShopCons/ItemShopCon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Views/BattleForm.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Views/CustomForm.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Views/EditForm.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Views/EditSpellsForm.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Views/FXControllers/BattleFormCon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Views/FXControllers/CardSlotPane.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Views/FXControllers/CustomCon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Views/FXControllers/EditFormCon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Views/FXControllers/EditSpellsCon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Views/FXControllers/FormCon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Views/FXControllers/FormMainCon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Views/FXControllers/MainController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Views/FXControllers/Map/BlockClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Views/FXControllers/Map/Blocks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Views/FXControllers/Map/Direction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Views/FXControllers/Map/HumanAnimation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Views/FXControllers/MapFormCon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Views/FXControllers/NetworkCon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Views/FXControllers/NewGameCon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Views/FXControllers/NewSpellCon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Views/FXControllers/SettingFormCon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Views/FXControllers/ShopCon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Views/FXControllers/StopWatch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Views/MainForm.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Views/MapForm.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Views/NetworkForm.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Views/NewGameForm.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Views/NewSpellForm.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Views/SettingForm.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Views/ShopForm.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/blocks/aab.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/blocks/battle1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/blocks/battle2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/blocks/battle3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/blocks/canpass1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/blocks/canpass2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/blocks/canpass3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/blocks/chaman.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/blocks/lucifer.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/blocks/mount.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/blocks/shop.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/blocks/tower.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/blocks/wall.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/bootstrap3.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/mostafa/mostafa_01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/mostafa/mostafa_02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/mostafa/mostafa_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/mostafa/mostafa_04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/mostafa/mostafa_05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/mostafa/mostafa_06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/mostafa/mostafa_07.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/mostafa/mostafa_08.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/mostafa/mostafa_09.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/mostafa/mostafa_10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/mostafa/mostafa_11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/mostafa/mostafa_12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/mostafa/mostafa_13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/mostafa/mostafa_14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/mostafa/mostafa_15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/mostafa/mostafa_16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/mostafa/mostafa_17.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/mostafa/mostafa_18.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/mostafa/mostafa_19.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/mostafa/mostafa_20.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/mostafa/mostafa_21.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/mostafa/mostafa_22.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/mostafa/mostafa_23.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/mostafa/mostafa_24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/mostafa/mostafa_25.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/mostafa/mostafa_26.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/mostafa/mostafa_27.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/mostafa/mostafa_28.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/mostafa/mostafa_29.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/mostafa/mostafa_30.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/mostafa/mostafa_31.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/mostafa/mostafa_32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/mostafa/mostafa_33.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/mostafa/mostafa_34.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/mostafa/mostafa_35.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/mostafa/mostafa_36.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/spells.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/state.ser" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/Phase2$Main.ic" NAME="Main Coverage Results" MODIFIED="1528486117226" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Phase3$Main.ic" NAME="Main Coverage Results" MODIFIED="1532394615322" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>.*</FILTER>
+    </SUITE>
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DebuggerManager">
+    <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true" converted="true">
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </breakpoint_any>
+    <ui_properties converted="true" />
+    <breakpoint_rules converted="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="FxmlFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>transient</find>
+      <find>getGameManager().getHumanPlayer()</find>
+      <find>List&lt;</find>
+      <find>ArrayList&lt;</find>
+      <find>wardr</find>
+      <find>war dru</find>
+      <find>doAction</find>
+      <find>thread</find>
+      <find>start</find>
+      <find>doactio</find>
+      <find>isplaying = tr</find>
+      <find>close</find>
+      <find>tab</find>
+      <find>transparent</find>
+      <find>.tab</find>
+      <find>choice</find>
+      <find>:hnd</find>
+      <find>ghnd</find>
+      <find>dhnd</find>
+      <find>hdfl</find>
+      <find>hnd</find>
+      <find>check</find>
+      <find>ChoiceBox</find>
+      <find>dark k</find>
+      <find>isDisabled</find>
+      <find>Item</find>
+      <find>cards.put</find>
+      <find>bac</find>
+      <find>number to bu</find>
+      <find>getDeck().getl</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>tempLBL</replace>
+      <replace>enemy</replace>
+      <replace>formCon.log</replace>
+      <replace>battle.getFormCon().log(</replace>
+      <replace>if (handleWasted(targetList, player)) {</replace>
+      <replace />
+      <replace>List&lt;</replace>
+      <replace>ArrayList&lt;</replace>
+      <replace>ChoiceBox&lt;String&gt;</replace>
+      <replace>Amulet</replace>
+    </replaceStrings>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="salehsagharchi" />
+      </list>
+    </option>
+    <option name="UPDATE_TYPE" value="REBASE" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectId" id="1gxm2uC4Prx9AXYqhd8RytOq3Ft" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="true" />
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="OverrideImplement.combined" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="dynamic.classpath" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.1547541" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="recentsLimit" value="5" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.completion" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Views.FXControllers" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\Dropbox\SHARIF\Nimsal 2\AP\Project\Phase2\src\resources" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+    </configuration>
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
+      <method />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
+      <Host>localhost</Host>
+      <Port>5050</Port>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="Phase3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value=".*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="" />
+      <created>1359379246138</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1359379246138</updated>
+      <workItem from="1359379250712" duration="1302000" />
+      <workItem from="1528165728697" duration="1709000" />
+      <workItem from="1528185132371" duration="80974000" />
+      <workItem from="1528499414437" duration="1299000" />
+      <workItem from="1528590651678" duration="2076000" />
+      <workItem from="1528593008503" duration="21102000" />
+      <workItem from="1528638571560" duration="368000" />
+      <workItem from="1529145124587" duration="422000" />
+      <workItem from="1530796534526" duration="245000" />
+      <workItem from="1531003665510" duration="56000" />
+      <workItem from="1531409427133" duration="737000" />
+      <workItem from="1531423961253" duration="21000" />
+      <workItem from="1531424006110" duration="34450000" />
+      <workItem from="1532096480138" duration="22151000" />
+      <workItem from="1532213005188" duration="5335000" />
+      <workItem from="1532292591381" duration="8458000" />
+      <workItem from="1532302722134" duration="897000" />
+      <workItem from="1532303640964" duration="26085000" />
+      <workItem from="1532394651688" duration="3403000" />
+      <workItem from="1532459367800" duration="17612000" />
+      <workItem from="1532634420212" duration="32089000" />
+      <workItem from="1532801520136" duration="7929000" />
+      <workItem from="1532957124271" duration="411000" />
+      <workItem from="1533816303875" duration="12000" />
+      <workItem from="1534004574655" duration="15000" />
+      <workItem from="1534012715899" duration="67000" />
+      <workItem from="1534099712715" duration="1135000" />
+      <workItem from="1539786592476" duration="642000" />
+      <workItem from="1546382511053" duration="1027000" />
+      <workItem from="1599064419849" duration="369000" />
+      <workItem from="1599064850635" duration="306000" />
+    </task>
+    <task id="LOCAL-00001" summary="phase3FirstCommit">
+      <created>1532307195453</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1532307195454</updated>
+    </task>
+    <task id="LOCAL-00002" summary="phase3&#10;update battle network send and receive">
+      <created>1532311005151</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1532311005151</updated>
+    </task>
+    <task id="LOCAL-00003" summary="phase3&#10;make battle form transient">
+      <created>1532311243372</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1532311243372</updated>
+    </task>
+    <task id="LOCAL-00004" summary="phase3&#10;check sending battle">
+      <created>1532311543835</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1532311543836</updated>
+    </task>
+    <task id="LOCAL-00005" summary="phase3&#10;fixing buxs">
+      <created>1532311852741</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1532311852741</updated>
+    </task>
+    <task id="LOCAL-00006" summary="phase3&#10;fixing buxs">
+      <created>1532312634516</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1532312634516</updated>
+    </task>
+    <task id="LOCAL-00007" summary="phase3&#10;fixing buxs">
+      <created>1532312808855</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1532312808855</updated>
+    </task>
+    <task id="LOCAL-00008" summary="phase3&#10;fixing buxs">
+      <created>1532313357192</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1532313357192</updated>
+    </task>
+    <task id="LOCAL-00009" summary="phase3&#10;fixing buxs">
+      <created>1532314160100</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1532314160100</updated>
+    </task>
+    <task id="LOCAL-00010" summary="phase3&#10;fixing buxs">
+      <created>1532314469715</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1532314469715</updated>
+    </task>
+    <task id="LOCAL-00011" summary="phase3&#10;fixing buxs">
+      <created>1532315851670</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1532315851670</updated>
+    </task>
+    <task id="LOCAL-00012" summary="phase3&#10;fixing buxs">
+      <created>1532316312863</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1532316312863</updated>
+    </task>
+    <task id="LOCAL-00013" summary="phase3&#10;start hand filling for two players">
+      <created>1532384146585</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1532384146585</updated>
+    </task>
+    <task id="LOCAL-00014" summary="phase3&#10;start hand filling for two players&#10;fixing bugs">
+      <created>1532385334694</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1532385334694</updated>
+    </task>
+    <task id="LOCAL-00015" summary="phase3&#10;start hand filling for two players&#10;fixing bugs">
+      <created>1532387121821</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1532387121821</updated>
+    </task>
+    <task id="LOCAL-00016" summary="phase3&#10;start hand filling for two players&#10;fixing bugs">
+      <created>1532387568133</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1532387568133</updated>
+    </task>
+    <task id="LOCAL-00017" summary="phase3&#10;start hand filling for two players&#10;fixing bugs">
+      <created>1532388478334</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1532388478334</updated>
+    </task>
+    <task id="LOCAL-00018" summary="phase3&#10;start hand filling for two players&#10;fixing bugs">
+      <created>1532388790807</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1532388790807</updated>
+    </task>
+    <task id="LOCAL-00019" summary="phase3&#10;start hand filling for two players&#10;fixing bugs">
+      <created>1532389933969</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1532389933969</updated>
+    </task>
+    <task id="LOCAL-00020" summary="phase3&#10;start hand filling for two players&#10;fixing bugs">
+      <created>1532390723880</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1532390723880</updated>
+    </task>
+    <task id="LOCAL-00021" summary="phase3&#10;start hand filling for two players&#10;fixing bugs">
+      <created>1532390810578</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1532390810578</updated>
+    </task>
+    <task id="LOCAL-00022" summary="phase3&#10;start hand filling for two players&#10;fixing bugs">
+      <created>1532393920187</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1532393920187</updated>
+    </task>
+    <task id="LOCAL-00023" summary="phase3&#10;start hand filling for two players&#10;fixing bugs">
+      <created>1532394145397</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1532394145397</updated>
+    </task>
+    <task id="LOCAL-00024" summary="phase3&#10;start hand filling for two players&#10;fixing bugs">
+      <created>1532394902588</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1532394902588</updated>
+    </task>
+    <task id="LOCAL-00025" summary="phase3&#10;start hand filling for two players&#10;fixing bugs">
+      <created>1532395246053</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1532395246053</updated>
+    </task>
+    <task id="LOCAL-00026" summary="phase3&#10;start hand filling for two players&#10;fixing bugs">
+      <created>1532398009624</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1532398009624</updated>
+    </task>
+    <task id="LOCAL-00027" summary="phase3&#10;start hand filling for two players&#10;animating in two player&#10;bugs fixed for aura spells">
+      <created>1532520531352</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1532520531352</updated>
+    </task>
+    <task id="LOCAL-00028" summary="phase3&#10;start hand filling for two players&#10;animating in two player&#10;bugs fixed for aura spells&#10;playing handled&#10;attacking&#10;do spells&#10;end battle">
+      <created>1532641884983</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1532641884983</updated>
+    </task>
+    <task id="LOCAL-00029" summary="phase3&#10;clean battle.java">
+      <created>1532642407639</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1532642407639</updated>
+    </task>
+    <task id="LOCAL-00030" summary="phase3&#10;handle server disconnect">
+      <created>1532643686509</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1532643686509</updated>
+    </task>
+    <task id="LOCAL-00031" summary="phase3&#10;handle server disconnect bug fixing">
+      <created>1532644019759</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1532644019759</updated>
+    </task>
+    <task id="LOCAL-00032" summary="phase3&#10;handle server disconnect bug fixing">
+      <created>1532644731018</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1532644731018</updated>
+    </task>
+    <task id="LOCAL-00033" summary="phase3&#10;handle server disconnect bug fixing">
+      <created>1532646057760</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1532646057760</updated>
+    </task>
+    <task id="LOCAL-00034" summary="phase3&#10;handle server disconnect bug fixing">
+      <created>1532646267733</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1532646267733</updated>
+    </task>
+    <task id="LOCAL-00035" summary="phase3&#10;clean networkManager.java">
+      <created>1532647094632</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1532647094632</updated>
+    </task>
+    <task id="LOCAL-00036" summary="phase3&#10;new spell amulet">
+      <created>1532766872800</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1532766872800</updated>
+    </task>
+    <task id="LOCAL-00037" summary="phase3&#10;new game form">
+      <created>1532787264827</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1532787264827</updated>
+    </task>
+    <task id="LOCAL-00038" summary="phase3&#10;new game form Completed">
+      <created>1532809436918</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1532809436918</updated>
+    </task>
+    <task id="LOCAL-00039" summary="phase3&#10;test commit">
+      <created>1532957458240</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1532957458240</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
+    <MESSAGE value="phase3FirstCommit" />
+    <MESSAGE value="phase3&#10;update battle network send and receive" />
+    <MESSAGE value="phase3&#10;make battle form transient" />
+    <MESSAGE value="phase3&#10;check sending battle" />
+    <MESSAGE value="phase3&#10;fixing buxs" />
+    <MESSAGE value="phase3&#10;start hand filling for two players" />
+    <MESSAGE value="phase3&#10;start hand filling for two players&#10;fixing bugs" />
+    <MESSAGE value="phase3&#10;start hand filling for two players&#10;animating in two player&#10;bugs fixed for aura spells" />
+    <MESSAGE value="phase3&#10;start hand filling for two players&#10;animating in two player&#10;bugs fixed for aura spells&#10;playing handled&#10;attacking&#10;do spells&#10;end battle" />
+    <MESSAGE value="phase3&#10;clean battle.java" />
+    <MESSAGE value="phase3&#10;handle server disconnect" />
+    <MESSAGE value="phase3&#10;handle server disconnect bug fixing" />
+    <MESSAGE value="phase3&#10;clean networkManager.java" />
+    <MESSAGE value="phase3&#10;new spell amulet" />
+    <MESSAGE value="phase3&#10;new game form" />
+    <MESSAGE value="phase3&#10;new game form Completed" />
+    <MESSAGE value="phase3&#10;test commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="phase3&#10;test commit" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="2517" height="366" key="GridCell.Tab.0.bottom" timestamp="1599064791507">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="366" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1599064791507" />
+    <state width="2517" height="366" key="GridCell.Tab.0.center" timestamp="1599064791507">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="366" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1599064791507" />
+    <state width="2517" height="366" key="GridCell.Tab.0.left" timestamp="1599064791506">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="366" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1599064791506" />
+    <state width="2517" height="366" key="GridCell.Tab.0.right" timestamp="1599064791507">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="366" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1599064791507" />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8 (1)</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Phase3</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>apache-lang:commons-lang:2.0</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

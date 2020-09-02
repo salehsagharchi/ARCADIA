@@ -1,0 +1,5 @@
+package Views.FXControllers.Map;
+
+public enum Blocks {
+    AAB, CHAMAN, BATTLE1, BATTLE2, BATTLE3, LUCIFER, CANPASS1, CANPASS2, CANPASS3, MOUNT, SHOP, TOWER, WALL
+}

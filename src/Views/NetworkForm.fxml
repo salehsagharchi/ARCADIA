@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.*?>
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="705.0"
+            prefWidth="918.0" style="-fx-background-color: #3c3c3c;"
+            xmlns:fx="http://javafx.com/fxml/1" fx:controller="Views.FXControllers.NetworkCon">
+    <children>
+        <Button fx:id="makeServer" alignment="CENTER" contentDisplay="CENTER" layoutX="14.0" layoutY="50.0"
+                mnemonicParsing="false" prefHeight="58.0" prefWidth="331.0" text="Create Host" textAlignment="CENTER">
+            <font>
+                <Font size="21.0"/>
+            </font>
+        </Button>
+        <Label alignment="CENTER" layoutX="373.0" layoutY="14.0" text="Network Setting" textAlignment="CENTER"
+               textFill="#1fff4c">
+            <font>
+                <Font name="Segoe UI" size="24.0"/>
+            </font>
+            <effect>
+                <Glow level="1.0"/>
+            </effect>
+        </Label>
+        <Button fx:id="connectServer" alignment="CENTER" contentDisplay="CENTER" layoutX="610.0" layoutY="50.0"
+                mnemonicParsing="false" prefHeight="58.0" prefWidth="294.0" style="-fx-background-color: #41c1ff;"
+                text="Connect TO Host" textAlignment="CENTER">
+            <font>
+                <Font size="21.0"/>
+            </font>
+        </Button>
+        <ListView fx:id="clients" layoutX="14.0" layoutY="167.0" prefHeight="522.0" prefWidth="567.0"/>
+        <Label fx:id="lblClients" alignment="CENTER" layoutX="14.0" layoutY="132.0" text="List Of Available Users :"
+               textAlignment="CENTER" textFill="#21c9ff">
+            <font>
+                <Font name="Segoe UI" size="19.0"/>
+            </font>
+            <effect>
+                <Glow level="1.0"/>
+            </effect>
+        </Label>
+        <Button fx:id="changeName" alignment="CENTER" contentDisplay="CENTER" layoutX="610.0" layoutY="200.0"
+                mnemonicParsing="false" prefHeight="58.0" prefWidth="294.0" text="Change Name" textAlignment="CENTER">
+            <font>
+                <Font size="21.0"/>
+            </font>
+        </Button>
+        <TextField fx:id="name" layoutX="610.0" layoutY="166.0" prefHeight="25.0" prefWidth="294.0"
+                   promptText="Your Name"/>
+        <TextArea fx:id="allchat" editable="false" layoutX="610.0" layoutY="303.0" prefHeight="290.0" prefWidth="294.0"
+                  wrapText="true"/>
+        <Label alignment="CENTER" layoutX="610.0" layoutY="279.0" text="Chat Room :" textAlignment="CENTER"
+               textFill="#21c9ff">
+            <font>
+                <Font name="Segoe UI" size="14.0"/>
+            </font>
+            <effect>
+                <Glow level="1.0"/>
+            </effect>
+        </Label>
+        <Button fx:id="broadcast" alignment="CENTER" contentDisplay="CENTER" layoutX="610.0" layoutY="645.0"
+                mnemonicParsing="false" prefHeight="43.0" prefWidth="294.0" text="Send" textAlignment="CENTER">
+            <font>
+                <Font size="21.0"/>
+            </font>
+        </Button>
+        <TextField fx:id="msgbox" layoutX="610.0" layoutY="607.0" prefHeight="25.0" prefWidth="294.0"
+                   promptText="Your Message"/>
+    </children>
+</AnchorPane>

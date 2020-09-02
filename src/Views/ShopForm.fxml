@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.Font?>
+<AnchorPane fx:id="pane" prefHeight="900.0" prefWidth="1200.0" style="-fx-background-color: #3c3c3c;"
+            xmlns="http://javafx.com/javafx/" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="Views.FXControllers.ShopCon">
+    <children>
+        <Label fx:id="gil" alignment="CENTER" layoutX="283.0" layoutY="14.0" prefHeight="45.0" prefWidth="634.0"
+               text="Remaining Gil : " textAlignment="CENTER" textFill="#039eff" AnchorPane.leftAnchor="283.0"
+               AnchorPane.rightAnchor="283.0" AnchorPane.topAnchor="14.0">
+            <font>
+                <Font name="Segoe UI" size="29.0"/>
+            </font>
+            <effect>
+                <Glow level="1.0"/>
+            </effect>
+        </Label>
+        <TabPane layoutX="35.0" layoutY="89.0" prefHeight="773.0" prefWidth="565.0" tabClosingPolicy="UNAVAILABLE">
+            <tabs>
+                <Tab text="Card Shop">
+                    <content>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="622.0" prefWidth="583.0">
+                            <children>
+                                <ListView fx:id="cardList" prefHeight="582.0" prefWidth="433.0"/>
+                            </children>
+                        </AnchorPane>
+                    </content>
+                </Tab>
+                <Tab text="Item Shop">
+                    <content>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                            <children>
+                                <ListView fx:id="itemList" prefHeight="513.0" prefWidth="525.0"/>
+                            </children>
+                        </AnchorPane>
+                    </content>
+                </Tab>
+                <Tab text="Amulet Shop">
+                    <content>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                            <children>
+                                <ListView fx:id="amuletList" prefHeight="632.0" prefWidth="534.0"/>
+                            </children>
+                        </AnchorPane>
+                    </content>
+                </Tab>
+            </tabs>
+        </TabPane>
+        <TabPane layoutX="628.0" layoutY="357.0" prefHeight="446.0" prefWidth="534.0" tabClosingPolicy="UNAVAILABLE">
+            <tabs>
+                <Tab text="Card Inventory">
+                    <content>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="622.0" prefWidth="583.0">
+                            <children>
+                                <ListView fx:id="cardInven" prefHeight="348.0" prefWidth="437.0"/>
+                            </children>
+                        </AnchorPane>
+                    </content>
+                </Tab>
+                <Tab text="Item Inventory">
+                    <content>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                            <children>
+                                <ListView fx:id="itemInven" prefHeight="346.0" prefWidth="502.0"/>
+                            </children>
+                        </AnchorPane>
+                    </content>
+                </Tab>
+                <Tab text="Amulet Inventory">
+                    <content>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="446.0" prefWidth="594.0">
+                            <children>
+                                <ListView fx:id="amuletInven" prefHeight="358.0" prefWidth="462.0"/>
+                            </children>
+                        </AnchorPane>
+                    </content>
+                </Tab>
+            </tabs>
+        </TabPane>
+        <TextArea fx:id="detail" editable="false" layoutX="628.0" layoutY="118.0" prefHeight="230.0" prefWidth="534.0"/>
+        <Label alignment="CENTER" layoutX="628.0" layoutY="89.0" prefHeight="25.0" prefWidth="534.0" text="Details :"
+               textAlignment="CENTER" textFill="#2eff23">
+            <font>
+                <Font name="Segoe UI" size="18.0"/>
+            </font>
+            <effect>
+                <Glow level="1.0"/>
+            </effect>
+        </Label>
+        <Button fx:id="exit" layoutX="992.0" layoutY="817.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="170.0"
+                text="Exit"/>
+        <Button fx:id="buy" layoutX="628.0" layoutY="817.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="170.0"
+                text="Buy"/>
+        <Button fx:id="sell" layoutX="810.0" layoutY="817.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="170.0"
+                text="Sell"/>
+    </children>
+</AnchorPane>

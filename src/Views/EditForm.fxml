@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<AnchorPane prefHeight="859.0" prefWidth="1138.0" style="-fx-background-color: #3c3c3c;"
+            xmlns="http://javafx.com/javafx/" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="Views.FXControllers.EditFormCon">
+    <children>
+        <Button fx:id="add" layoutX="573.0" layoutY="409.0" mnemonicParsing="false" prefHeight="74.0" prefWidth="74.0"
+                text="&gt;&gt;">
+            <font>
+                <Font name="Segoe UI" size="12.0"/>
+            </font>
+        </Button>
+        <TabPane layoutX="26.0" layoutY="333.0" prefHeight="439.0" prefWidth="534.0" tabClosingPolicy="UNAVAILABLE">
+            <tabs>
+                <Tab text="Card Inventory">
+                    <content>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="622.0" prefWidth="583.0">
+                            <children>
+                                <ListView fx:id="cardInven" prefHeight="385.0" prefWidth="493.0"/>
+                            </children>
+                        </AnchorPane>
+                    </content>
+                </Tab>
+                <Tab text="Item Inventory">
+                    <content>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                            <children>
+                                <ListView fx:id="itemInven" prefHeight="346.0" prefWidth="502.0"/>
+                            </children>
+                        </AnchorPane>
+                    </content>
+                </Tab>
+                <Tab text="Amulet Inventory">
+                    <content>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="446.0" prefWidth="594.0">
+                            <children>
+                                <ListView fx:id="amuletInven" prefHeight="358.0" prefWidth="462.0"/>
+                            </children>
+                        </AnchorPane>
+                    </content>
+                </Tab>
+            </tabs>
+        </TabPane>
+        <Label fx:id="gil" alignment="CENTER" layoutX="243.0" layoutY="14.0" prefHeight="45.0" prefWidth="634.0"
+               text="Remaining Gil : " textAlignment="CENTER" textFill="#039eff" AnchorPane.leftAnchor="243.0"
+               AnchorPane.rightAnchor="261.0" AnchorPane.topAnchor="14.0">
+            <font>
+                <Font name="Segoe UI" size="29.0"/>
+            </font>
+            <effect>
+                <Glow level="1.0"/>
+            </effect>
+        </Label>
+        <TextArea fx:id="detail" editable="false" layoutX="26.0" layoutY="98.0" prefHeight="221.0" prefWidth="534.0"/>
+        <Label alignment="CENTER" layoutX="26.0" layoutY="69.0" prefHeight="25.0" prefWidth="534.0" text="Details :"
+               textAlignment="CENTER" textFill="#2eff23">
+            <font>
+                <Font name="Segoe UI" size="18.0"/>
+            </font>
+            <effect>
+                <Glow level="1.0"/>
+            </effect>
+        </Label>
+        <Label fx:id="amuletE" alignment="CENTER" layoutX="663.0" layoutY="98.0" prefHeight="34.0" prefWidth="440.0"
+               textAlignment="CENTER" textFill="#e5ff24">
+            <font>
+                <Font name="Segoe UI" size="20.0"/>
+            </font>
+            <effect>
+                <Glow level="1.0"/>
+            </effect>
+        </Label>
+        <ListView fx:id="deck" layoutX="663.0" layoutY="279.0" prefHeight="558.0" prefWidth="440.0"/>
+        <Label alignment="CENTER" layoutX="663.0" layoutY="246.0" prefHeight="25.0" prefWidth="440.0"
+               text="Player Deck :" textAlignment="CENTER" textFill="#2eff23">
+            <font>
+                <Font name="Segoe UI" size="18.0"/>
+            </font>
+            <effect>
+                <Glow level="1.0"/>
+            </effect>
+        </Label>
+        <Button fx:id="equip" layoutX="303.0" layoutY="792.0" mnemonicParsing="false" prefHeight="45.0"
+                prefWidth="257.0" text="Equip"/>
+        <Button fx:id="remove" layoutX="573.0" layoutY="488.0" mnemonicParsing="false" prefHeight="74.0"
+                prefWidth="74.0" text="&lt;&lt;"/>
+        <Button fx:id="exit" layoutX="26.0" layoutY="792.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="257.0"
+                text="Exit"/>
+        <Button fx:id="removeAmulet" layoutX="755.0" layoutY="164.0" mnemonicParsing="false" prefHeight="45.0"
+                prefWidth="257.0" text="Remove"/>
+    </children>
+</AnchorPane>

@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="831.0" prefWidth="984.0" style="-fx-background-color: #3c3c3c;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Views.FXControllers.NewGameCon">
+    <children>
+        <Label alignment="CENTER" layoutX="384.0" layoutY="14.0" text="Create New Game" textAlignment="CENTER" textFill="#1fff4c" AnchorPane.leftAnchor="313.0" AnchorPane.rightAnchor="311.0">
+            <font>
+                <Font name="Segoe UI" size="24.0" />
+            </font>
+            <effect>
+                <Glow level="1.0" />
+            </effect>
+        </Label>
+        <Button fx:id="newGame" alignment="CENTER" contentDisplay="CENTER" layoutX="16.0" layoutY="744.0" mnemonicParsing="false" prefHeight="51.0" prefWidth="693.0" style="-fx-background-color: #00ff99;" text="Create" textAlignment="CENTER" AnchorPane.bottomAnchor="14.0" AnchorPane.leftAnchor="16.0" AnchorPane.rightAnchor="275.0">
+            <font>
+                <Font size="21.0" />
+            </font>
+        </Button>
+        <TabPane fx:id="tabPane" layoutX="14.0" layoutY="54.0" prefHeight="657.0" prefWidth="951.0" tabClosingPolicy="UNAVAILABLE">
+            <tabs>
+                <Tab fx:id="forCardTab" text="Game Cards">
+                    <content>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="637.0" prefWidth="951.0" style="-fx-background-color: #282828;">
+                            <children>
+                                <ChoiceBox fx:id="cardClass" layoutX="133.0" layoutY="417.0" prefHeight="25.0" prefWidth="325.0" />
+                                <Label alignment="CENTER" layoutX="14.0" layoutY="417.0" text="Card Class :" textAlignment="CENTER" textFill="#21d6ff">
+                                    <font>
+                                        <Font name="Segoe UI" size="19.0" />
+                                    </font>
+                                    <effect>
+                                        <Glow level="1.0" />
+                                    </effect>
+                                </Label>
+                                  <ChoiceBox fx:id="cardType" layoutX="133.0" layoutY="453.0" prefHeight="25.0" prefWidth="325.0" />
+                                  <Label alignment="CENTER" layoutX="14.0" layoutY="453.0" text="Card Type :" textAlignment="CENTER" textFill="#21d6ff">
+                                      <font>
+                                          <Font name="Segoe UI" size="19.0" />
+                                      </font>
+                                      <effect>
+                                          <Glow level="1.0" />
+                                      </effect>
+                                  </Label>
+                                <Button fx:id="addCard" alignment="CENTER" contentDisplay="CENTER" layoutX="494.0" layoutY="546.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="216.0" style="-fx-background-color: #00ff99;" text="Add Card" textAlignment="CENTER">
+                                    <font>
+                                        <Font size="21.0" />
+                                    </font>
+                                </Button>
+                                <TextField fx:id="cardName" layoutX="136.0" layoutY="286.0" prefHeight="31.0" prefWidth="320.0" promptText="Name" />
+                                <Button fx:id="deleteCard" alignment="CENTER" contentDisplay="CENTER" layoutX="721.0" layoutY="546.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="216.0" style="-fx-background-color: #fffd45;" text="Delete Card" textAlignment="CENTER">
+                                    <font>
+                                        <Font size="21.0" />
+                                    </font>
+                                </Button>
+                        <Label alignment="CENTER" layoutX="14.0" layoutY="292.0" text="Card Name :" textAlignment="CENTER" textFill="#21d6ff">
+                           <font>
+                              <Font name="Segoe UI" size="19.0" />
+                           </font>
+                           <effect>
+                              <Glow level="1.0" />
+                           </effect>
+                        </Label>
+                        <TextField fx:id="cardPrice" layoutX="136.0" layoutY="324.0" prefHeight="31.0" prefWidth="320.0" promptText="Price" />
+                        <Label alignment="CENTER" layoutX="14.0" layoutY="330.0" text="Card Price :" textAlignment="CENTER" textFill="#21d6ff">
+                           <font>
+                              <Font name="Segoe UI" size="19.0" />
+                           </font>
+                           <effect>
+                              <Glow level="1.0" />
+                           </effect>
+                        </Label>
+                        <TextField fx:id="cardMP" layoutX="136.0" layoutY="362.0" prefHeight="31.0" prefWidth="320.0" promptText="MP" />
+                        <Label alignment="CENTER" layoutX="14.0" layoutY="368.0" text="Mana Cost :" textAlignment="CENTER" textFill="#21d6ff">
+                           <font>
+                              <Font name="Segoe UI" size="19.0" />
+                           </font>
+                           <effect>
+                              <Glow level="1.0" />
+                           </effect>
+                        </Label>
+                        <ListView fx:id="cardsList" layoutX="12.0" layoutY="12.0" prefHeight="248.0" prefWidth="927.0" />
+                        <AnchorPane fx:id="monsterGroup" layoutX="517.0" layoutY="291.0" prefHeight="233.0" prefWidth="409.0">
+                           <children>
+                              <TextField fx:id="cardHP" layoutX="89.0" prefHeight="31.0" prefWidth="320.0" promptText="HP" />
+                              <Label alignment="CENTER" layoutY="6.0" text="Default HP :" textAlignment="CENTER" textFill="#21d6ff">
+                                 <font>
+                                    <Font name="Segoe UI" size="15.0" />
+                                 </font>
+                                 <effect>
+                                    <Glow level="1.0" />
+                                 </effect>
+                              </Label>
+                              <TextField fx:id="cardAP" layoutX="89.0" layoutY="38.0" prefHeight="31.0" prefWidth="320.0" promptText="AP" />
+                              <Label alignment="CENTER" layoutY="44.0" text="Default AP :" textAlignment="CENTER" textFill="#21d6ff">
+                                 <font>
+                                    <Font name="Segoe UI" size="15.0" />
+                                 </font>
+                                 <effect>
+                                    <Glow level="1.0" />
+                                 </effect>
+                              </Label>
+                              <ChoiceBox fx:id="tribes" layoutX="89.0" layoutY="82.0" prefHeight="25.0" prefWidth="320.0" />
+                              <Label alignment="CENTER" layoutX="1.0" layoutY="85.0" text="Card Tribe :" textAlignment="CENTER" textFill="#21d6ff">
+                                 <font>
+                                    <Font name="Segoe UI" size="15.0" />
+                                 </font>
+                                 <effect>
+                                    <Glow level="1.0" />
+                                 </effect>
+                              </Label>
+                              <CheckBox fx:id="cardDefensive" contentDisplay="CENTER" layoutX="1.0" layoutY="131.0" mnemonicParsing="false" text="Defensive" textAlignment="CENTER" textFill="#24ff60">
+                                 <effect>
+                                    <Glow level="0.82" />
+                                 </effect>
+                                 <font>
+                                    <Font size="14.0" />
+                                 </font>
+                              </CheckBox>
+                              <CheckBox fx:id="cardNimble" contentDisplay="CENTER" layoutX="1.0" layoutY="160.0" mnemonicParsing="false" text="Nimble" textAlignment="CENTER" textFill="#24ff60">
+                                 <effect>
+                                    <Glow level="0.82" />
+                                 </effect>
+                                 <font>
+                                    <Font size="14.0" />
+                                 </font>
+                              </CheckBox>
+                           </children>
+                        </AnchorPane>
+                        <ChoiceBox fx:id="spell1" layoutX="97.0" layoutY="495.0" prefHeight="25.0" prefWidth="360.0" />
+                        <Label alignment="CENTER" layoutX="14.0" layoutY="495.0" text="Spell 1 :" textAlignment="CENTER" textFill="#21d6ff">
+                           <font>
+                              <Font name="Segoe UI" size="19.0" />
+                           </font>
+                           <effect>
+                              <Glow level="1.0" />
+                           </effect>
+                        </Label>
+                        <ChoiceBox fx:id="spell2" layoutX="97.0" layoutY="531.0" prefHeight="25.0" prefWidth="360.0" />
+                        <Label alignment="CENTER" layoutX="14.0" layoutY="531.0" text="Spell 2 :" textAlignment="CENTER" textFill="#21d6ff">
+                           <font>
+                              <Font name="Segoe UI" size="19.0" />
+                           </font>
+                           <effect>
+                              <Glow level="1.0" />
+                           </effect>
+                        </Label>
+                        <ChoiceBox fx:id="spell3" layoutX="97.0" layoutY="567.0" prefHeight="25.0" prefWidth="360.0" />
+                        <Label alignment="CENTER" layoutX="14.0" layoutY="567.0" text="Spell 3 :" textAlignment="CENTER" textFill="#21d6ff">
+                           <font>
+                              <Font name="Segoe UI" size="19.0" />
+                           </font>
+                           <effect>
+                              <Glow level="1.0" />
+                           </effect>
+                        </Label>
+                            </children></AnchorPane>
+                    </content>
+                </Tab>
+                <Tab fx:id="forItemTab" text="Game Items">
+                    <content>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" style="-fx-background-color: #282828;">
+                     <children>
+                        <Button fx:id="addItem" alignment="CENTER" contentDisplay="CENTER" layoutX="496.0" layoutY="546.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="216.0" style="-fx-background-color: #00ff99;" text="Add Item" textAlignment="CENTER">
+                           <font>
+                              <Font size="21.0" />
+                           </font>
+                        </Button>
+                        <TextField fx:id="itemName" layoutX="342.0" layoutY="330.0" prefHeight="31.0" prefWidth="360.0" promptText="Name" />
+                        <Button fx:id="deleteItem" alignment="CENTER" contentDisplay="CENTER" layoutX="721.0" layoutY="546.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="216.0" style="-fx-background-color: #fffd45;" text="Delete Item" textAlignment="CENTER">
+                           <font>
+                              <Font size="21.0" />
+                           </font>
+                        </Button>
+                        <Label alignment="CENTER" layoutX="250.0" layoutY="336.0" text="Item Name :" textAlignment="CENTER" textFill="#21d6ff">
+                           <font>
+                              <Font name="Segoe UI" size="15.0" />
+                           </font>
+                           <effect>
+                              <Glow level="1.0" />
+                           </effect>
+                        </Label>
+                        <TextField fx:id="itemPrice" layoutX="342.0" layoutY="374.0" prefHeight="31.0" prefWidth="360.0" promptText="Price" />
+                        <Label alignment="CENTER" layoutX="250.0" layoutY="380.0" text="Item Price :" textAlignment="CENTER" textFill="#21d6ff">
+                           <font>
+                              <Font name="Segoe UI" size="15.0" />
+                           </font>
+                           <effect>
+                              <Glow level="1.0" />
+                           </effect>
+                        </Label>
+                        <ListView fx:id="itemsList" layoutX="12.0" layoutY="12.0" prefHeight="248.0" prefWidth="927.0" />
+                        <ChoiceBox fx:id="itemSpell" layoutX="342.0" layoutY="420.0" prefHeight="25.0" prefWidth="360.0" />
+                        <Label alignment="CENTER" layoutX="250.0" layoutY="423.0" text="Spell :" textAlignment="CENTER" textFill="#21d6ff">
+                           <font>
+                              <Font name="Segoe UI" size="15.0" />
+                           </font>
+                           <effect>
+                              <Glow level="1.0" />
+                           </effect>
+                        </Label>
+                     </children></AnchorPane>
+                    </content>
+                </Tab>
+                <Tab fx:id="forAmuTab" text="Game Amulets">
+                    <content>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" style="-fx-background-color: #282828;">
+                     <children>
+                        <Button fx:id="addAmulet" alignment="CENTER" contentDisplay="CENTER" layoutX="496.0" layoutY="546.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="216.0" style="-fx-background-color: #00ff99;" text="Add Amulet" textAlignment="CENTER">
+                           <font>
+                              <Font size="21.0" />
+                           </font>
+                        </Button>
+                        <TextField fx:id="amuletName" layoutX="361.0" layoutY="332.0" prefHeight="31.0" prefWidth="360.0" promptText="Name" />
+                        <Button fx:id="deleteAmulet" alignment="CENTER" contentDisplay="CENTER" layoutX="721.0" layoutY="546.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="216.0" style="-fx-background-color: #fffd45;" text="Delete Amulet" textAlignment="CENTER">
+                           <font>
+                              <Font size="21.0" />
+                           </font>
+                        </Button>
+                        <Label alignment="CENTER" layoutX="250.0" layoutY="336.0" text="Amulet Name :" textAlignment="CENTER" textFill="#21d6ff">
+                           <font>
+                              <Font name="Segoe UI" size="15.0" />
+                           </font>
+                           <effect>
+                              <Glow level="1.0" />
+                           </effect>
+                        </Label>
+                        <TextField fx:id="amuletPrice" layoutX="361.0" layoutY="376.0" prefHeight="31.0" prefWidth="360.0" promptText="Price" />
+                        <Label alignment="CENTER" layoutX="250.0" layoutY="380.0" text="Amulet Price :" textAlignment="CENTER" textFill="#21d6ff">
+                           <font>
+                              <Font name="Segoe UI" size="15.0" />
+                           </font>
+                           <effect>
+                              <Glow level="1.0" />
+                           </effect>
+                        </Label>
+                        <ListView fx:id="amuletsList" layoutX="12.0" layoutY="12.0" prefHeight="248.0" prefWidth="927.0" />
+                        <ChoiceBox fx:id="amuletSpell" layoutX="361.0" layoutY="422.0" prefHeight="25.0" prefWidth="360.0" />
+                        <Label alignment="CENTER" layoutX="250.0" layoutY="423.0" text="Spell :" textAlignment="CENTER" textFill="#21d6ff">
+                           <font>
+                              <Font name="Segoe UI" size="15.0" />
+                           </font>
+                           <effect>
+                              <Glow level="1.0" />
+                           </effect>
+                        </Label>
+                     </children></AnchorPane>
+                    </content>
+                </Tab>
+            </tabs>
+        </TabPane>
+        <TextField fx:id="gameName" layoutX="137.0" layoutY="701.0" prefHeight="31.0" prefWidth="831.0" promptText="New Game Name [Must Be Unique]" AnchorPane.bottomAnchor="77.0" />
+        <Label alignment="CENTER" layoutX="16.0" layoutY="727.0" text="Game Name :" textAlignment="CENTER" textFill="#21d6ff" AnchorPane.bottomAnchor="80.0">
+            <font>
+                <Font name="Segoe UI" size="19.0" />
+            </font>
+            <effect>
+                <Glow level="1.0" />
+            </effect>
+        </Label>
+      <Button fx:id="goShop" alignment="CENTER" contentDisplay="CENTER" layoutX="743.0" layoutY="766.0" mnemonicParsing="false" prefHeight="51.0" prefWidth="226.0" text="Go To Shop" textAlignment="CENTER" AnchorPane.bottomAnchor="14.0" AnchorPane.leftAnchor="743.0" AnchorPane.rightAnchor="15.0">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Button>
+    </children>
+</AnchorPane>

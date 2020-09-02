@@ -1,0 +1,110 @@
+defaultHumanCards{
+    FirstAidKit@3
+    ThrowingKnives@3
+    PoisonousCauldron@1
+    HealingWard@1
+    WarDrum@1
+    ElvenRanger@2
+    ElvenHunter@2
+    ElvenGuardsman@1
+    ElvenAssassin@1
+    ElvenDruid@1
+    LesserWhelp@2
+    Dragonling@2
+    ArmoredDragon@1
+    YellowDrake@1
+    BlueDragon@1
+    MurlocCrawler@2
+    MurlocWarrior@2
+    GiantCrab@1
+    SharkMan@1
+    NagaSiren@1
+}
+defaultHumanItems{
+    MysticHourglass@3
+    SmallMPPotion@2
+    SmallHPPotion@2
+}
+defaultHumanAmulets{
+    DiamondRing@1
+}
+defaultHumanDeckCards{
+    FirstAidKit@3
+    ThrowingKnives@3
+    PoisonousCauldron@1
+    HealingWard@1
+    WarDrum@1
+    ElvenRanger@2
+    ElvenHunter@2
+    ElvenGuardsman@1
+    ElvenAssassin@1
+    ElvenDruid@1
+    LesserWhelp@2
+    Dragonling@2
+    ArmoredDragon@1
+    YellowDrake@1
+    BlueDragon@1
+    MurlocCrawler@2
+    MurlocWarrior@2
+    GiantCrab@1
+    SharkMan@1
+    NagaSiren@1
+}
+battleone{
+    name:Mountainside Village
+    vsname:Goblin Chieftain
+    c:GoblinSmuggler@10
+    c:GoblinShaman@5
+    c:ThrowingKnives@5
+    gil:10000
+}
+battletwo{
+    name:Town in the Plains
+    vsname:Ogre Warlord
+    c:OgreWarrior@6
+    c:OgreFrontliner@4
+    c:OgreMagi@2
+    c:OgreWarchief@1
+    c:ThrowingKnives@3
+    c:FirstAidKit@3
+    c:PoisonousCauldron@1
+    gil:20000
+}
+battlethree{
+    name:Dark City
+    vsname:Vampire Lord
+    c:Undead@4
+    c:GiantBat@3
+    c:StoutUndead@3
+    c:UndeadMage@2
+    c:VampireAcolyte@1
+    c:VampirePrince@1
+    c:BloodFeast@3
+    c:FirstAidKit@2
+    c:WarDrum@1
+    c:PoisonousCauldron@1
+    c:HealingWard@1
+    c:GreaterPurge@1
+    gil:30000
+}
+battlefour{
+    name:Tower of Inferno
+    vsname:Lucifer
+    amulet:DemonKC
+    c:Imp@4
+    c:Shade@3
+    c:LivingArmor@3
+    c:Hellhound@2
+    c:EvilEye@2
+    c:Necromancer@2
+    c:DarkKnight@1
+    c:CerberusGOH@1
+    c:Reaper'sScythe@3
+    c:FirstAidKit@3
+    c:StrategicRetreat@1
+    c:HealingWard@2
+    c:WarDrum@1
+    c:MeteorShower@1
+    c:MagicSeal@1
+    gil:-1
+}

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.*?>
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="614.0"
+            prefWidth="918.0" style="-fx-background-color: #3c3c3c;" xmlns="http://javafx.com/javafx/"
+            xmlns:fx="http://javafx.com/fxml/1" fx:controller="Views.FXControllers.FormMainCon">
+    <children>
+        <Button fx:id="single" alignment="CENTER" contentDisplay="CENTER" layoutX="294.0" layoutY="180.0"
+                mnemonicParsing="false" prefHeight="58.0" prefWidth="331.0" text="Single Player" textAlignment="CENTER">
+            <font>
+                <Font size="21.0"/>
+            </font>
+        </Button>
+        <Label alignment="CENTER" layoutX="274.0" layoutY="89.0" text="Welcome To ARCADIA" textAlignment="CENTER"
+               textFill="#1fff4c">
+            <font>
+                <Font name="Segoe UI" size="35.0"/>
+            </font>
+            <effect>
+                <Glow level="1.0"/>
+            </effect>
+        </Label>
+        <Button fx:id="custom" alignment="CENTER" contentDisplay="CENTER" layoutX="294.0" layoutY="262.0"
+                mnemonicParsing="false" prefHeight="58.0" prefWidth="331.0" text="Custom Game" textAlignment="CENTER">
+            <font>
+                <Font size="21.0"/>
+            </font>
+        </Button>
+        <Button fx:id="multi" alignment="CENTER" contentDisplay="CENTER" layoutX="294.0" layoutY="342.0"
+                mnemonicParsing="false" prefHeight="58.0" prefWidth="331.0" text="Multiplayer" textAlignment="CENTER">
+            <font>
+                <Font size="21.0"/>
+            </font>
+        </Button>
+        <Button fx:id="setting" alignment="CENTER" contentDisplay="CENTER" layoutX="294.0" layoutY="421.0"
+                mnemonicParsing="false" prefHeight="58.0" prefWidth="331.0" text="Setting" textAlignment="CENTER">
+            <font>
+                <Font size="21.0"/>
+            </font>
+        </Button>
+        <Button fx:id="exit" alignment="CENTER" contentDisplay="CENTER" layoutX="294.0" layoutY="496.0"
+                mnemonicParsing="false" prefHeight="58.0" prefWidth="331.0" text="Exit" textAlignment="CENTER">
+            <font>
+                <Font size="21.0"/>
+            </font>
+        </Button>
+    </children>
+</AnchorPane>

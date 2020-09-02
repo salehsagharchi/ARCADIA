@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="716.0" prefWidth="984.0" style="-fx-background-color: #3c3c3c;" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Views.FXControllers.NewSpellCon">
+    <children>
+        <Label alignment="CENTER" layoutX="384.0" layoutY="14.0" text="Create New Spell" textAlignment="CENTER" textFill="#1fff4c" AnchorPane.leftAnchor="313.0" AnchorPane.rightAnchor="311.0">
+            <font>
+                <Font name="Segoe UI" size="24.0" />
+            </font>
+            <effect>
+                <Glow level="1.0" />
+            </effect>
+        </Label>
+        <Button fx:id="newSpell" alignment="CENTER" contentDisplay="CENTER" layoutX="17.0" layoutY="651.0" mnemonicParsing="false" prefHeight="51.0" prefWidth="951.0" style="-fx-background-color: #00ff99;" text="OK" textAlignment="CENTER" AnchorPane.leftAnchor="17.0" AnchorPane.rightAnchor="16.0">
+            <font>
+                <Font size="21.0" />
+            </font>
+        </Button>
+        <TextField fx:id="mgcCmd" editable="false" layoutX="184.0" layoutY="572.0" prefHeight="31.0" prefWidth="784.0" />
+        <Label alignment="CENTER" layoutX="17.0" layoutY="575.0" text="Magic Command :" textAlignment="CENTER" textFill="#b0ff21">
+            <font>
+                <Font name="Segoe UI" size="19.0" />
+            </font>
+            <effect>
+                <Glow level="1.0" />
+            </effect>
+        </Label>
+        <Label alignment="CENTER" layoutX="17.0" layoutY="615.0" text="Spell Owner :" textAlignment="CENTER" textFill="#b0ff21">
+            <font>
+                <Font name="Segoe UI" size="19.0" />
+            </font>
+            <effect>
+                <Glow level="1.0" />
+            </effect>
+        </Label>
+        <TextField fx:id="ownerTxt" editable="false" layoutX="184.0" layoutY="612.0" prefHeight="31.0" prefWidth="784.0" />
+      <TabPane fx:id="tabPane" layoutX="14.0" layoutY="54.0" prefHeight="469.0" prefWidth="951.0" tabClosingPolicy="UNAVAILABLE">
+        <tabs>
+          <Tab fx:id="forCardTab" text="For Card">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" style="-fx-background-color: #282828;">
+                     <children>
+                        <ChoiceBox fx:id="workCard" layoutX="131.0" layoutY="36.0" prefHeight="25.0" prefWidth="360.0" />
+                        <Label alignment="CENTER" layoutX="12.0" layoutY="36.0" text="Select Work :" textAlignment="CENTER" textFill="#21d6ff">
+                           <font>
+                              <Font name="Segoe UI" size="19.0" />
+                           </font>
+                           <effect>
+                              <Glow level="1.0" />
+                           </effect>
+                        </Label>
+                        <AnchorPane fx:id="targetGroup" layoutX="12.0" layoutY="97.0">
+                           <children>
+                              <ChoiceBox fx:id="targetType" layoutX="119.0" prefHeight="25.0" prefWidth="360.0" />
+                              <Label alignment="CENTER" text="Target Type :" textAlignment="CENTER" textFill="#21d6ff">
+                                 <font>
+                                    <Font name="Segoe UI" size="19.0" />
+                                 </font>
+                                 <effect>
+                                    <Glow level="1.0" />
+                                 </effect>
+                              </Label>
+                              <CheckBox fx:id="fplyCard" contentDisplay="CENTER" layoutY="73.0" mnemonicParsing="false" text="Human Player" textAlignment="CENTER" textFill="#24ff60">
+                                 <effect>
+                                    <Glow level="0.82" />
+                                 </effect>
+                                 <font>
+                                    <Font size="14.0" />
+                                 </font>
+                              </CheckBox>
+                              <CheckBox fx:id="eplyCard" contentDisplay="CENTER" layoutY="103.0" mnemonicParsing="false" text="Enemy Player" textAlignment="CENTER" textFill="#24ff60">
+                                 <effect>
+                                    <Glow level="0.82" />
+                                 </effect>
+                                 <font>
+                                    <Font size="14.0" />
+                                 </font>
+                              </CheckBox>
+                              <TextField fx:id="fmonTarget" layoutX="181.0" layoutY="139.0" prefHeight="25.0" prefWidth="320.0" />
+                              <CheckBox fx:id="fmonCard" contentDisplay="CENTER" layoutY="143.0" mnemonicParsing="false" text="Human Monster Cards" textAlignment="CENTER" textFill="#24ff60">
+                                 <effect>
+                                    <Glow level="0.82" />
+                                 </effect>
+                                 <font>
+                                    <Font size="14.0" />
+                                 </font>
+                              </CheckBox>
+                              <CheckBox fx:id="fsplCard" contentDisplay="CENTER" layoutY="213.0" mnemonicParsing="false" text="Human Spell Cards" textAlignment="CENTER" textFill="#24ff60">
+                                 <effect>
+                                    <Glow level="0.82" />
+                                 </effect>
+                                 <font>
+                                    <Font size="14.0" />
+                                 </font>
+                              </CheckBox>
+                              <CheckBox fx:id="emonCard" contentDisplay="CENTER" layoutY="173.0" mnemonicParsing="false" text="Enemy Monster Cards" textAlignment="CENTER" textFill="#24ff60">
+                                 <effect>
+                                    <Glow level="0.82" />
+                                 </effect>
+                                 <font>
+                                    <Font size="14.0" />
+                                 </font>
+                              </CheckBox>
+                              <CheckBox fx:id="esplCard" contentDisplay="CENTER" layoutY="243.0" mnemonicParsing="false" text="Enemy Spell Cards" textAlignment="CENTER" textFill="#24ff60">
+                                 <effect>
+                                    <Glow level="0.82" />
+                                 </effect>
+                                 <font>
+                                    <Font size="14.0" />
+                                 </font>
+                              </CheckBox>
+                              <TextField fx:id="emonTarget" layoutX="181.0" layoutY="173.0" prefHeight="25.0" prefWidth="320.0" />
+                              <Label alignment="CENTER" layoutX="501.0" layoutY="132.0" prefHeight="68.0" prefWidth="346.0" text="Type targets Form : [Normal, SpellCaster, General, Hero, Elven, Atlantian, DragonBreed, Goblin, Ogre, Vampiric, Demonic]  (Split By &quot;-&quot;)  (Empty For All)" textAlignment="CENTER" textFill="#cdffb7" wrapText="true">
+                                 <font>
+                                    <Font name="Segoe UI" size="15.0" />
+                                 </font>
+                                 <effect>
+                                    <Glow level="0.21" />
+                                 </effect>
+                              </Label>
+                           </children>
+                        </AnchorPane>
+                        <Button fx:id="addSpell" alignment="CENTER" contentDisplay="CENTER" layoutX="254.0" layoutY="375.0" mnemonicParsing="false" prefHeight="51.0" prefWidth="216.0" style="-fx-background-color: #00ff99;" text="Add Spell" textAlignment="CENTER">
+                           <font>
+                              <Font size="21.0" />
+                           </font>
+                        </Button>
+                        <TextField fx:id="value" layoutX="498.0" layoutY="36.0" prefHeight="25.0" prefWidth="320.0" promptText="Value" />
+                        <Button fx:id="clearMgc" alignment="CENTER" contentDisplay="CENTER" layoutX="481.0" layoutY="375.0" mnemonicParsing="false" prefHeight="51.0" prefWidth="216.0" style="-fx-background-color: #fffd45;" text="Clear Magics" textAlignment="CENTER">
+                           <font>
+                              <Font size="21.0" />
+                           </font>
+                        </Button>
+                     </children></AnchorPane>
+            </content>
+          </Tab>
+          <Tab fx:id="forItemTab" text="For Item">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" style="-fx-background-color: #282828;">
+                     <children>
+                        <CheckBox fx:id="plyHPItemCheck" contentDisplay="CENTER" layoutX="12.0" layoutY="36.0" mnemonicParsing="false" text="Increase Player HP By :" textAlignment="CENTER" textFill="#24ff60">
+                           <effect>
+                              <Glow level="0.82" />
+                           </effect>
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </CheckBox>
+                        <CheckBox fx:id="plyMPItemCheck" contentDisplay="CENTER" layoutX="12.0" layoutY="72.0" mnemonicParsing="false" text="Increase Player MP By :" textAlignment="CENTER" textFill="#24ff60">
+                           <effect>
+                              <Glow level="0.82" />
+                           </effect>
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </CheckBox>
+                        <TextField fx:id="playerHPItem" layoutX="241.0" layoutY="34.0" prefHeight="31.0" prefWidth="292.0" />
+                        <TextField fx:id="playerMPItem" layoutX="241.0" layoutY="70.0" prefHeight="31.0" prefWidth="292.0" />
+                     </children></AnchorPane>
+            </content>
+          </Tab>
+            <Tab fx:id="forAmuTab" text="For Amulet">
+              <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" style="-fx-background-color: #282828;">
+                     <children>
+                        <CheckBox fx:id="plyHPAmuCheck" contentDisplay="CENTER" layoutX="12.0" layoutY="36.0" mnemonicParsing="false" text="Increase Player Max HP By :" textAlignment="CENTER" textFill="#24ff60">
+                           <effect>
+                              <Glow level="0.82" />
+                           </effect>
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </CheckBox>
+                        <CheckBox fx:id="plyMPAmuCheck" contentDisplay="CENTER" layoutX="12.0" layoutY="72.0" mnemonicParsing="false" text="Increase Player Max MP By :" textAlignment="CENTER" textFill="#24ff60">
+                           <effect>
+                              <Glow level="0.82" />
+                           </effect>
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </CheckBox>
+                        <TextField fx:id="playerHPAmu" layoutX="283.0" layoutY="34.0" prefHeight="31.0" prefWidth="292.0" />
+                        <TextField fx:id="playerMPAmu" layoutX="283.0" layoutY="70.0" prefHeight="31.0" prefWidth="292.0" />
+                     </children></AnchorPane>
+              </content>
+            </Tab>
+        </tabs>
+      </TabPane>
+      <TextField fx:id="splName" layoutX="184.0" layoutY="533.0" prefHeight="31.0" prefWidth="784.0" promptText="New Spell Name(Description) [Must Be Unique]" />
+      <Label alignment="CENTER" layoutX="17.0" layoutY="537.0" text="Spell Name :" textAlignment="CENTER" textFill="#21d6ff">
+         <font>
+            <Font name="Segoe UI" size="19.0" />
+         </font>
+         <effect>
+            <Glow level="1.0" />
+         </effect>
+      </Label>
+    </children>
+</AnchorPane>
